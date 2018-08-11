@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import { Link } from 'gatsby'
+
 export default class About extends Component {
   render() {
     return (
@@ -21,6 +23,7 @@ export default class About extends Component {
 
               
                 <p>Thanks for your interest.</p>
+                <Link to="/">Go back to the homepage</Link>
       </div>
     )
   }
