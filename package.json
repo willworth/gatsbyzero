@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.0.0-beta.98",
+    "gatsby-source-filesystem": "^1.5.39",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }

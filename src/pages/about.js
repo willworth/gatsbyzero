@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-
+import Header from '../components/header';
 import { Link } from 'gatsby'
 
 export default class About extends Component {
   render() {
     return (
       <div>
+          <Header />
         <h1>About</h1>
     <p>I'm a coder with some professional experience looking for a full time role as a software developer.</p>
                 <p>I've worked with wordpress and PHP, as well as done contract work in quality assurance with a 
@@ -15,7 +16,7 @@ export default class About extends Component {
                 <p> If you have any questions about the contents of this site, or want to talk about collaboration (I'm open to opensource work, too), please do get in touch either 
                 via social networks.  (Facebook is my least favourite here, but I'll make an exception for you...</p>
                                  
-              <p>  <a href="www.linkedin.com/in/willworth">Linkedin</a></p>
+              <p>  <a href="https://www.linkedin.com/in/willworth">Linkedin</a></p>
               <p>  <a href="https://twitter.com/worthcoding">Twitter</a></p>
               <p>  <a href="https://fb.com/willworth">Facebook</a></p>
               <p><a href="https://github.com/willworth/">My Github</a></p>
