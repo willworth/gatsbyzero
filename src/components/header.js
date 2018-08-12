@@ -26,6 +26,13 @@ const Header = () => (
           Worth Coding
         </Link>
       </h1>
+      <h4>
+
+        <Link to = "/">Home  </Link> 
+        <Link to = "/blog/">Blog  </Link>
+        <Link to = "/about/">About  </Link>
+        
+      </h4>
     </div>
   </div>
 )
